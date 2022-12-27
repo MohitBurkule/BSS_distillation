@@ -7,7 +7,7 @@ Official Pytorch implementation of paper:
 Sporlight and poster are available on [homepage](https://sites.google.com/view/byeongho-heo/home)
 
 ## Environment
-Python 3.6, Pytorch 0.4.1, Torchvision
+Python 3.6, Pytorch 0.4.1 (updated to 1.12.1), Torchvision
 
 
 ## Knowledge distillation [(CIFAR-10)](https://www.cs.toronto.edu/~kriz/cifar.html) 
