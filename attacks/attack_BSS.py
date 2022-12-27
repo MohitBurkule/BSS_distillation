@@ -1,8 +1,11 @@
 from torch import autograd
-from torch.autograd.gradcheck import zero_gradients
+#from torch.autograd.gradcheck import zero_gradients
 import torch.nn.functional as F
 from .helpers import *
 
+def zero_gradients(x):
+    if x.grad is not None:
+        x.grad.zero_()
 
 class AttackBSS:
 
